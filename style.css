@@ -152,7 +152,9 @@ img{
 	background-size: 100%;
 	background-repeat: no-repeat;
   }
-
+.about_color{
+	font-size: 2vw;
+}
 
   /* -----------------about_me  end----------------- */
   /* .my_life{
@@ -291,8 +293,26 @@ img{
 .The_A{
 	display: none;
 }
-
-
+.open_all_1{
+	font-size: 12px;
+	background-color:#E9F3FA ;
+	border-radius: 20px;
+	width: 15px;
+	margin-left: 5px;
+	padding: 4px;
+}
+.open_all_2{
+	font-size: 12px;
+	background-color:#E9F3FA ;
+	border-radius: 20px;
+	width: 15px;
+	margin-left: 5px;
+	padding: 4px;
+}
+.down_icon{
+	font-size: 2px;
+	margin-left: 5px;
+}
 @media (min-width:760px) {
 	.family_text{
 		width: 70%;
@@ -912,6 +932,10 @@ img{
 .ship_img{
 	width: 100%;
 }
+.ship_width{
+	width: 90%;
+	margin: auto;
+}
 .footer{
 	margin-top: 40px;
 	text-align: center;
@@ -969,7 +993,7 @@ img{
 	padding-top: 7%;
 }
 .time_content {
-	width: 50vw;
+	width: 100%;
 	font-weight: 400;
 	margin-left: 40px;
 }
